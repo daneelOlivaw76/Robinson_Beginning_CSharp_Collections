@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Robinson_Beginning_CSharp_Collections\\NthDay\\NthDay.csproj",
+      "projectUniqueName": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Robinson_Beginning_CSharp_Collections\\code\\NthDay\\NthDay.csproj",
       "projectName": "NthDay",
-      "projectPath": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Robinson_Beginning_CSharp_Collections\\NthDay\\NthDay.csproj",
+      "projectPath": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Robinson_Beginning_CSharp_Collections\\code\\NthDay\\NthDay.csproj",
       "packagesPath": "C:\\Users\\Rui Reis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Robinson_Beginning_CSharp_Collections\\NthDay\\obj\\",
+      "outputPath": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Robinson_Beginning_CSharp_Collections\\code\\NthDay\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -11,3 +11,16 @@ C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_
 C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.dll
 C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.pdb
 C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.genruntimeconfig.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\bin\Debug\netcoreapp3.1\DaysOfWeek.exe
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\bin\Debug\netcoreapp3.1\DaysOfWeek.deps.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\bin\Debug\netcoreapp3.1\DaysOfWeek.runtimeconfig.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\bin\Debug\netcoreapp3.1\DaysOfWeek.runtimeconfig.dev.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\bin\Debug\netcoreapp3.1\DaysOfWeek.dll
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\bin\Debug\netcoreapp3.1\DaysOfWeek.pdb
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.csprojAssemblyReference.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.csproj.CoreCompileInputs.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.AssemblyInfoInputs.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.AssemblyInfo.cs
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.dll
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.pdb
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Robinson_Beginning_CSharp_Collections\code\DaysOfWeek\obj\Debug\netcoreapp3.1\DaysOfWeek.genruntimeconfig.cache
