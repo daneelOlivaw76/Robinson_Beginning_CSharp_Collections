@@ -2,7 +2,7 @@
 
 namespace Pluralsight.BegCShCollections.IntroColls.TopTenPops
 {
-    internal class Country
+    public class Country
     {
         public string Name { get; }
         public string Code { get; }

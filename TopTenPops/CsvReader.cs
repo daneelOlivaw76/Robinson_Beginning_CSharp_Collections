@@ -32,7 +32,7 @@ namespace Pluralsight.BegCShCollections.IntroColls.TopTenPops
             return countries;
         }
 
-        public List<Country> ReadAllCountries()
+        public List<Country> ReadAllCountriesList()
         {
             List<Country> countries = new List<Country>();
 
@@ -45,6 +45,25 @@ namespace Pluralsight.BegCShCollections.IntroColls.TopTenPops
                 while((line = reader.ReadLine()) != null)
                 {
                     countries.Add(ReadCountryFromCsvLine(line));
+                }
+            }
+            return countries;
+        }
+
+        public Dictionary<string, Country> ReadAllCountries()
+        {
+            var countries = new Dictionary<string, Country>();
+
+            using (var reader = new StreamReader(this._csvFilePath))
+            {
+                // read header line
+                reader.ReadLine();
+                string line;
+
+                while ((line = reader.ReadLine()) != null)
+                {
+                    Country country = ReadCountryFromCsvLine(line);
+                    countries.Add(country.Code, country);
                 }
             }
             return countries;
