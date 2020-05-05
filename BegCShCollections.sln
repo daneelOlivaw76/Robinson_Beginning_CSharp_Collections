@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaysOfWeekList", "DaysOfWee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictSnippets", "DictSnippets\DictSnippets.csproj", "{00BEBB39-3AD7-41F4-8E78-2983C6CA93D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadCountriesForLoop", "ReadCountriesForLoop\ReadCountriesForLoop.csproj", "{629D4061-0234-408F-9D8B-0F531454ADE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAllCountries", "ReadAllCountries\ReadAllCountries.csproj", "{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{00BEBB39-3AD7-41F4-8E78-2983C6CA93D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00BEBB39-3AD7-41F4-8E78-2983C6CA93D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00BEBB39-3AD7-41F4-8E78-2983C6CA93D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629D4061-0234-408F-9D8B-0F531454ADE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629D4061-0234-408F-9D8B-0F531454ADE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629D4061-0234-408F-9D8B-0F531454ADE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629D4061-0234-408F-9D8B-0F531454ADE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
