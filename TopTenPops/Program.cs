@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Reflection.PortableExecutable;
 
 namespace Pluralsight.BegCShCollections.IntroColls.TopTenPops
@@ -11,12 +13,21 @@ namespace Pluralsight.BegCShCollections.IntroColls.TopTenPops
 
             CsvReader reader = new CsvReader(filePath);
 
-            Country[] countries = reader.ReadFirstNCountries(10);
+            // Country[] countries = reader.ReadFirstNCountries(10);
+
+            List<Country> countries = reader.ReadAllCountries();
+
+            Country lilliput = new Country("Lilliput", "LIL", "Somewhere", 2_000_000);
+            int lilliputIndex = countries.FindIndex(x => x.Population < 2_000_000);
+            countries.Insert(lilliputIndex, lilliput);
+            countries.RemoveAt(lilliputIndex);
 
             foreach (Country country in countries)
             {
-                Console.WriteLine($"{PopulationFormatter.FormatPopulation(country.Population).PadLeft(15)}: { country.Name}");
+                Console.WriteLine($"{PopulationFormatter.FormatPopulation(country.Population),-15}: { country.Name}");
             }
+
+            Console.WriteLine($"{countries.Count} countries.");
         }
     }
 }

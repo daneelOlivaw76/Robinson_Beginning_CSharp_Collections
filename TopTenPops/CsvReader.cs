@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace Pluralsight.BegCShCollections.IntroColls.TopTenPops
 {
@@ -30,14 +32,48 @@ namespace Pluralsight.BegCShCollections.IntroColls.TopTenPops
             return countries;
         }
 
+        public List<Country> ReadAllCountries()
+        {
+            List<Country> countries = new List<Country>();
+
+            using (var reader = new StreamReader(this._csvFilePath))
+            {
+                // read header line
+                reader.ReadLine();
+                string line;
+
+                while((line = reader.ReadLine()) != null)
+                {
+                    countries.Add(ReadCountryFromCsvLine(line));
+                }
+            }
+            return countries;
+        }
+
         public Country ReadCountryFromCsvLine(string csvLine)
         {
-            string[] parts = csvLine.Split(',');
+            string name;
+            string code;
+            string region;
+            int population;
+            string[] parts;
 
-            string name = parts[0];
-            string code = parts[1];
-            string region = parts[2];
-            int population = int.Parse(parts[3]);
+            string[] initParts = csvLine.Split('"');
+
+            if (initParts.Length > 1)
+            {
+                name = initParts[1];
+                csvLine = initParts[2];
+            }
+            else
+            {
+                name = csvLine.Split(',')[0];
+            }
+            parts = csvLine.Split(',');
+
+            code = parts[1];
+            region = parts[2];
+            int.TryParse(parts[3], out population);
 
             return new Country(name, code, region, population);
         }

@@ -17,7 +17,7 @@ namespace Pluralsight.BegCShCollections.IntroColls.TopTenPops
 
         private static int RoundPopulation4(int population)
         {
-            int accuracy = Math.Max((int)(GetHighestPowerofTen(population) / 10_000l), 1);
+            int accuracy = Math.Max((int)(GetHighestPowerofTen(population) / 10_000L), 1);
 
             return RoundToNEarest(population, accuracy);
         }
