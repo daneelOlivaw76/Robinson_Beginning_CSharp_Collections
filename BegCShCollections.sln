@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadCountriesForLoop", "Rea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAllCountries", "ReadAllCountries\ReadAllCountries.csproj", "{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesByRegion", "CountriesByRegion\CountriesByRegion.csproj", "{AB6B38BF-45AD-4EC5-9CFE-E2D7EAE26CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoughtsCrosses", "NoughtsCrosses\NoughtsCrosses.csproj", "{06C237B3-15E7-468E-B44C-BFF95EE38291}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713A1E2D-FDB1-4DF0-A88A-918F237A6F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6B38BF-45AD-4EC5-9CFE-E2D7EAE26CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6B38BF-45AD-4EC5-9CFE-E2D7EAE26CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6B38BF-45AD-4EC5-9CFE-E2D7EAE26CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6B38BF-45AD-4EC5-9CFE-E2D7EAE26CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C237B3-15E7-468E-B44C-BFF95EE38291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C237B3-15E7-468E-B44C-BFF95EE38291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C237B3-15E7-468E-B44C-BFF95EE38291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C237B3-15E7-468E-B44C-BFF95EE38291}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
