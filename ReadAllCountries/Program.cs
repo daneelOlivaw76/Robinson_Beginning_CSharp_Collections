@@ -15,8 +15,12 @@ namespace Pluralsight.BegCShCollections.ReadAllCountries
             CsvReader reader = new CsvReader(filePath);
             List<Country> countries = reader.ReadAllCountries();
 
+            var filteredCountries = countries.Where(x => !x.Name.Contains(','));//.ToList().GetRange(0, 20);
+            var filteredCountries2 = from country in countries
+                                     where !country.Name.Contains(',')
+                                     select country;
             //foreach (Country country in countries.GetRange(0, 20))
-            foreach (Country country in countries.OrderBy(x => x.Name).ToList().GetRange(0,10))
+            foreach (Country country in filteredCountries2)
             {
                 Console.WriteLine($"{PopulationFormatter.FormatPopulation(country.Population).PadLeft(15)}: { country.Name}");
             }
